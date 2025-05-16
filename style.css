@@ -1,0 +1,160 @@
+
+/* General Styling */
+body {
+  font-family: 'Outfit', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #1e3c72, #2a5298); /* Deep blue gradient */
+  color: #fff;
+  min-height: 100vh;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Header Styling */
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: rgba(0, 0, 0, 0.5); /* Slightly darker header background */
+  backdrop-filter: blur(8px); /* Clearer blur effect */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+
+nav button {
+  margin: 0.25rem;
+  padding: 0.6rem 1.2rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+nav button:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+/* Section Styling */
+.section {
+  display: none;
+}
+
+.section.active {
+  display: block;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  font-size: 2.2rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card {
+  flex: 1 1 200px;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-weight: bold;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.todo-box {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.todo-box input, .todo-box button {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: none;
+}
+
+ul#taskList {
+  list-style: none;
+  padding: 0;
+}
+
+/* Product Grid */
+.product-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.filters {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.filters select {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: none;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.6); /* Dark footer background */
+  margin-top: 2rem;
+  color: #fff;
+}
+
+/* Contact Form */
+form input, form textarea, form button {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border-radius: 6px;
+  border: none;
+}
+
+form button {
+  background-color: #00bcd4; /* A vibrant cyan color */
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #0097a7; /* Slightly darker cyan */
+}
+
+
+
+
+
+
+
+
+
+
+
+
